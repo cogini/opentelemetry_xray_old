@@ -1,0 +1,14 @@
+{application, opentelemetry_xray,
+ [{description, "OpenTelemetry Exporter for AWS X-Ray"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
